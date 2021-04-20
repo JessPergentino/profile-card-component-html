@@ -1,0 +1,24 @@
+body {
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-color: hsl(185, 75%, 39%);
+  background-position: bottom 40vh right 51vw, top 52vh left 48vw;
+  background-repeat: no-repeat no-repeat;
+  height: 92vh;
+  padding: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  background-color: white;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
