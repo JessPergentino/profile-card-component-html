@@ -84,3 +84,30 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    border-radius: 5%;
+    background-color: white;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 142px;
+    box-shadow: 2px 2px 20px 0px;
+  }
+
+  .profile-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+  }
+}
